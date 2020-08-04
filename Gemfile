@@ -20,7 +20,7 @@ if version == 'master'
   # Rails 5
   gem 'rails-controller-testing', github: 'rails/rails-controller-testing'
 else
-  gem_version = "~> #{version}.0"
+  gem_version = ">= 5"
   gem 'rails', gem_version
   gem 'railties', gem_version
   gem 'activesupport', gem_version
